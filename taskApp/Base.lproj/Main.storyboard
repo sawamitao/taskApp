@@ -68,7 +68,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="tableView" destination="JYo-C9-3ry" id="R5c-vK-DU1"/>
+                        <outlet property="tableView" destination="JYo-C9-3ry" id="B0D-mT-d4e"/>
                         <segue destination="f51-1c-24i" kind="show" identifier="cellSegue" id="KKv-K8-Y21"/>
                     </connections>
                 </viewController>
@@ -105,13 +105,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="2zi-cZ-wtC">
-                                <rect key="frame" x="0.0" y="419" width="390" height="120"/>
+                                <rect key="frame" x="0.0" y="419.33333333333331" width="390" height="119.99999999999994"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="FKz-xz-VFM"/>
                                 </constraints>
                             </datePicker>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A6j-xb-D10">
-                                <rect key="frame" x="10" y="289" width="370" height="120"/>
+                                <rect key="frame" x="10" y="289.33333333333331" width="370" height="120"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="dwi-S7-sxf"/>

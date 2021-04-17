@@ -1,6 +1,6 @@
 //
 //  Task.swift
-//  
+//  taskApp
 //
 //  Created by 田尾　早和美 on 2021/04/17.
 //
@@ -8,9 +8,6 @@
 import RealmSwift
 
 class Task: Object {
-    
-
-
     // 管理用 ID。プライマリーキー
     @objc dynamic var id = 0
 
@@ -19,13 +16,13 @@ class Task: Object {
 
     // 内容
     @objc dynamic var contents = ""
-    
-    //カテゴリー
-    @objc dynamic var category = ""
-    
+
     // 日時
     @objc dynamic var date = Date()
-
+    
+    // カテゴリー
+    @objc dynamic var category = ""
+    
     // id をプライマリーキーとして設定
     override static func primaryKey() -> String? {
         return "id"
